@@ -1,0 +1,119 @@
+
+#counter-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+.parallax1 {
+    /* The image used */
+
+
+    background-image: url(../img/bg/bg-5.png);
+
+    /* Set a specific height */
+    height: 350px;
+    width: 100%;
+    box-shadow: 0 0 10px 0 black;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+
+
+    background-image: url(../img/bg/bg-5.png);
+
+    /* Set a specific height */
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px 0 black;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.number {
+    margin: 10px auto;
+    font-size: 52px;
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    color: yellow;
+    text-shadow: 0 0 10px 0 white;
+    font-family: "ZonaPro", sans-serif !important;
+}
+
+.viz {
+    opacity: 1;
+    transition: 1s;
+}
+
+.bl {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-count-top {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "ZonaPro", sans-serif !important;
+    line-height: 1.5em;
+}
+
+.text-counter {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: "ZonaPro", sans-serif !important;
+    font-weight: 700;
+    line-height: 1.5em;
+
+}
+
+@media (max-width: 680px) {
+    .number {
+        font-size: 38px !important;
+    }
+
+    .text-count-top {
+        font-size: 20px !important;
+    }
+
+    .text-counter {
+        font-size: 18px !important;
+    }
+
+    .parallax {
+        height: 100vh!important;
+    }
+
+    #counter-about {
+        height: 100vh !important;
+    }
+
+    .parallax1 {
+        height: 100vh!important;
+    }
+
+}
+/*Коунтер конец*/
