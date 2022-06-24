@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/formlogin.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+
+
+
+</head>
+<body>
+
+
+<section id="auth-forms">
+  <div class="container d-flex align-items-center justify-content-center">
+      <div class="forgot-form" id="forgot-form">
+          <h2 class="forgot-text mt-50 mb-50" style="font-size: 26px">Обратитесь к менеджеру KAZDREAM HARDWARE</h2>
+          <a href="login.html" class="forgot" style="margin: 0 0 30px 20px">Назад</a>
+      </div>
+    <div class="row d-flex align-items-center justify-content-center">
+
+      <div class="col-5">
+          <div class="form-reg" id="form-auth">
+              <h2 class="forms_title mt-50">Регистрация пользователя</h2>
+              <div class="forms_field">
+                  <input type="text" placeholder="Имя" class="forms_field-input mt-20 mb-10 ml-20 " required autofocus />
+
+                  <input type="text" placeholder="Фамилия" class="forms_field-input mt-10 mb-10 ml-20 " required />
+
+                  <input type="tel" placeholder="Телефон" class="forms_field-input mt-10 mb-10 ml-20 " required />
+
+                  <input type="tel" placeholder="Наименование гос. Органа" class="forms_field-input mt-10 mb-10 ml-20 " required />
+
+
+                  <input type="password" placeholder="Код регистрации" class="forms_field-input mt-10 mb-20 ml-20 " required />
+
+
+                  <input type="password" placeholder="Придумайте пароль" class="forms_field-input mt-10 mb-20 ml-20 " required />
+              </div>
+              <div class="forms_buttons">
+                  <input type="submit" value="Отправить" id="send-reg" class="forms_buttons-action mt-20 mb-50 ml-20" style="width: 50%">
+                  <a href="#" class="forgot" id="back-btn" style="margin: 0 0 30px 20px">Назад</a>
+              </div>
+          </div>
+          <div class="form-login" id="form-login">
+              <h2 class="forms_title mt-50">Вход в личный кабинет</h2>
+              <div class="forms_field">
+                  <input type="email" placeholder="Email" class="forms_field-input mt-20 mb-10 ml-20" required autofocus />
+              </div>
+              <div class="forms_field">
+                  <input type="password" placeholder="Пароль" class="forms_field-input mt-10 mb-20 ml-20" required />
+              </div>
+              <div class="forms_buttons">
+                  <input type="submit" value="Войти" id="login-in" class="forms_buttons-action mt-30 mb-50 ml-20">
+                  <a href="#" class="forgot" id="forgot-btn" style="margin: 0 0 20px 20px">Забыли пароль?</a>
+              </div>
+          </div>
+
+
+      </div>
+      <div class="col-7">
+          <div class="login-info-content mb-20" id="info-reg">
+              <p class="user_registered-text mb-10 mt-30"><strong>Если у вас нет аккаунта пройдите регистрацию.</strong><br><br>
+                  <strong>Внимание!</strong><br> Для регистрации вам потребуется получить ваучер (код первичной регистрации) от нашей организации, доступ к закрытой части сайта имеет узкий круг людей. <br>
+                  <br>
+                  Дополнительную информацию вы можете получить, связавшись с нами.
+
+              </p>
+              <button class="user_registered-login mt-10 mb-50 ml-20" id="reg-button">Зарегистрироваться</button>
+              <a href="index.html" class="exit">Выход</a>
+          </div>
+        </div>
+
+
+
+    </div>
+  </div>
+
+
+
+</section>
+
+<script  src="js/formlogin.js"></script>
+
+</body>
+</html>
